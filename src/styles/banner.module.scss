@@ -1,0 +1,31 @@
+@import './global.scss';
+.container{
+   
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230713/pngtree-3d-render-illustration-of-software-development-and-programming-image_3860859.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 80vh;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   position: absolute;
+   line-height: $line-height-low;
+   color: $background-color;
+
+   .text{
+    background: rgba(0,0,0,0.7);
+    width: 70%;
+    position: relative;
+    text-align: center;
+    // border: 1px solid red;
+    margin: 180px auto;
+
+    .pText{
+        border: 1px solid red;
+        width: 70%;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+   }
+}

@@ -5,6 +5,7 @@ import Image from "next/image";
 import Index from './pages/index'
 import NavBar from './components/nav-bar'
 import Slider from './components/slider'
+import Banner from "./components/banner";
 
 
 
@@ -12,7 +13,8 @@ export default function Home() {
   return (
     <main>
     
-      <Slider />
+      {/* <Slider /> */}
+      <Banner />
     
 
     </main>
