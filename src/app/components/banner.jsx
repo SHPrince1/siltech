@@ -12,13 +12,19 @@ const Banner = () => {
           <div className={style.pText}>
             <p>
               We render Technology based services and solutions. Just say the
-              problem and we are sure to offer the solutions. You get the
-              solution with Ease. That's why we are <span ><b>TechRite</b></span>
+              problem and we are sure to offer the solutions. We get what you
+              demand for the with Ease. That's why we are{" "}
+              <span>
+                <b>TechRite</b>
+              </span>
             </p>
           </div>
-        </div>
 
-     
+          <div className={style.btn}>
+            <button>Connect</button>
+          </div>
+        </div>
+        <div className={style.cover}>{/* <h1>HELLO</h1> */}</div>
       </div>
     </main>
   );

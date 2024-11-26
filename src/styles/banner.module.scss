@@ -1,10 +1,10 @@
 @import './global.scss';
 .container{
    
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230713/pngtree-3d-render-illustration-of-software-development-and-programming-image_3860859.jpg);
+    background-image: url(../images/BBGG.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   height: 80vh;
+   height: 85vh;
    align-items: center;
    justify-content: center;
    width: 100%;
@@ -13,19 +13,47 @@
    color: $background-color;
 
    .text{
-    background: rgba(0,0,0,0.7);
+    // background: rgba(0,0,0,0.5);
     width: 70%;
     position: relative;
     text-align: center;
-    // border: 1px solid red;
-    margin: 180px auto;
+    // height: 90vh;
+    margin: 150px auto;
+    background-size: cover;
+    .headerText{
+        margin: 20px 0px;
+    }
 
     .pText{
-        border: 1px solid red;
+        // border: 1px solid red;
         width: 70%;
         align-items: center;
         text-align: center;
-        margin: 0 auto;
+        margin: 20px auto;
     }
+
    }
+   .btn{
+    background-color: aqua;
+    width: 95px;
+    margin: 0 auto;
+
+   
+   }
+   .btn button{
+    background-color: #3787f2;
+    width: 140px;
+    height: 38px;
+
+}
+}
+.cover{
+    // background-color: #3787f2;
+    // border: 1px solid red;
+    background: rgba(0,0,0,0.2);
+    // width: 100px;
+    // height: 200px;
+    height: 420px;
+    margin-top:-390px ;
+    position: relative;
 }
