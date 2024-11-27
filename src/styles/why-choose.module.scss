@@ -1,0 +1,39 @@
+@import './global.scss';
+.container{
+    // border: 1px solid red;
+    background-color: #f2f9f9;
+    // background-color: blue;
+}
+
+.TextCard{
+    // border: 1px solid  red;
+    width: 50%;
+    // display: flex;
+    margin: 50px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    h3, h1{
+        text-align: center;
+    }
+    h1{
+        font-size: 45px;
+        color: #001442;
+    }
+    h3{
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #00d1f9;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+
+.cardBox{
+    // border: 1px solid red;
+    // background-color: beige;
+    width: 72%;
+    margin: 30px auto;
+    display: flex;
+    gap: 30px;
+}

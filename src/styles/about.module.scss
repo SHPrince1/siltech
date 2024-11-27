@@ -1,0 +1,27 @@
+.container{
+ display: flex;  
+ 
+ 
+ .textBox{
+    border: 1px solid red;
+    .offerText{
+        border: 1px solid red;
+        width: 480px;
+        margin: 20px;
+    }
+    .pText{
+        width: 480px;
+        margin: 20px;
+    }
+ }
+ .qualityBox{
+    border: 1px solid red;
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+
+  .captionText{
+    width: 450px;
+  }  
+ }
+}

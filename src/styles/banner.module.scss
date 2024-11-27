@@ -1,6 +1,6 @@
 @import './global.scss';
 .container{
-   
+//    border: 1px solid red;
     background-image: url(../images/BBGG.jpg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -8,17 +8,18 @@
    align-items: center;
    justify-content: center;
    width: 100%;
-   position: absolute;
+   position: relative;
    line-height: $line-height-low;
    color: $background-color;
 
    .text{
     // background: rgba(0,0,0,0.5);
-    width: 70%;
-    position: relative;
+    width: 100%;
+    z-index: 99999;
+    position: absolute;
     text-align: center;
     // height: 90vh;
-    margin: 150px auto;
+    margin: 128px auto;
     background-size: cover;
     .headerText{
         margin: 20px 0px;
@@ -26,7 +27,8 @@
 
     .pText{
         // border: 1px solid red;
-        width: 70%;
+        width: 45%;
+        font-style: bold;
         align-items: center;
         text-align: center;
         margin: 20px auto;
@@ -37,6 +39,7 @@
     background-color: aqua;
     width: 95px;
     margin: 0 auto;
+    z-index: 99999;
 
    
    }
@@ -44,16 +47,17 @@
     background-color: #3787f2;
     width: 140px;
     height: 38px;
+    z-index: 99999;
 
 }
 }
 .cover{
     // background-color: #3787f2;
     // border: 1px solid red;
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.6);
     // width: 100px;
     // height: 200px;
-    height: 420px;
-    margin-top:-390px ;
+    height: 550px;
+    margin-top:0px ;
     position: relative;
 }
