@@ -1,22 +1,20 @@
 import React from "react";
+import Image from "next/image";
 import style from "../../styles/card.module.scss";
 
-const Card = () => {
+const Card = (props) => {
   return (
     <main>
       <div className={style.container}>
         <div className={style.imgBox}>
-          <h1>IMAGE</h1>
+          <div><Image src={props.image} alt="image" className={style.pImage} /></div>
         </div>
         <div className={style.titleBox}>
-          <h4>EFFICIENCY</h4>
+          <h4>{props.title}</h4>
         </div>
         <div className={style.textBox}>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
-            rerum necessitatibus aperiam sequi, animi nostrum maiores ea iste
-            nulla quibusdam ut tempore distinctio magnam eaque quidem omnis
-            dolores, vitae dicta?
+           {props.content}
           </p>
         </div>
       </div>
