@@ -1,9 +1,10 @@
+@import './global.scss';
 .container{
     display: flex;
     justify-content: space-evenly;
     // border: 1px solid red;
     width: 90%;
-    height: 600px;
+    // height: 600px;
     margin: 30px auto;
     padding:  100px 0; 
     background-color: white;
@@ -15,6 +16,13 @@
     // justify-content: space-around;
     gap: 18px;
     position: relative;
+    @media screen and (max-width:$breakpoint-sm) {
+        // width: 380px;
+        display:flex;
+        flex-direction: column;
+         
+         
+     }
     .emptyDiv{
         // background: rgba(0, 0, 0, 0.5);
         width: 27.5%;
@@ -31,6 +39,12 @@
         background-size: 300px 400px;
         background-repeat: no-repeat;
         z-index: 1;
+        @media screen and (max-width:$breakpoint-sm) {
+            width: 100%;
+           
+            background-size: 100% 90%;
+             
+         }
         h2{
             // border: 1px solid red;
             width: 185px;
@@ -81,6 +95,14 @@
         gap: 14px;
         flex-wrap: wrap;
         // justify-content: space-between;
+
+        @media screen and (max-width:$breakpoint-sm) {
+            width: 100%;
+            flex-wrap: nowrap;
+            overflow: scroll;
+    
+             
+         }
 
       
     }

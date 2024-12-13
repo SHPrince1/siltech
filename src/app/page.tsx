@@ -10,6 +10,7 @@ import WhyChoose from "./components/why-choose";
 import About from "./components/about";
 import Services from "./components/services";
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 export default function Home() {
   return (
@@ -17,10 +18,11 @@ export default function Home() {
       <div>
         {/* <Slider /> */}
         <Banner />
-        <WhyChoose />
         <About />
         <Services />
+        <WhyChoose />
         <Contact />
+        <Footer />
       </div>
     </main>
   );

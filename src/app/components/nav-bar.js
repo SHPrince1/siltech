@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import Image from 'next/image'
 import style from "../../styles/navbar.module.scss";
-
+import Logo from '../../images/essagelogo-removebg-preview.png'
 export default function NavBar() {
   return (
     <>
@@ -9,7 +10,7 @@ export default function NavBar() {
         <div>
           <Link href="/" >
             
-            <>TechVhile</>
+          <Image src={Logo} width={160} alt="computer Image" />
           </Link>
         </div>
         <div className= {style.navBarOptions}>

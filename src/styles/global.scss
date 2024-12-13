@@ -31,6 +31,56 @@ $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
+// grid
+$container-sm: width 50%;
+$container-md: width 70%;
+$container-sm: width 90%;
+// $row-lg:
+
+
+// Define grid variables
+$columns: 12; // Number of columns in the grid
+$gutter-width: 16px; // Space between columns
+
+// Mixin for row
+@mixin row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -($gutter-width / 2);
+  margin-right: -($gutter-width / 2);
+}
+
+// Mixin for column
+@mixin col($span: 1) {
+  flex: 0 0 calc(100% / $columns * $span - #{$gutter-width});
+  max-width: calc(100% / $columns * $span - #{$gutter-width});
+  padding-left: calc($gutter-width / 2);
+  padding-right: calc($gutter-width / 2);
+}
+// Responsive Columns
+// Full-width column
+@mixin col-full {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@mixin col($span: 1, $columns: 12) {
+    flex: 0 0 calc(100% / $columns * $span - #{$gutter-width});
+    max-width: calc(100% / $columns * $span - #{$gutter-width});
+    padding-left: calc($gutter-width / 2);
+    padding-right: calc($gutter-width / 2);
+  }
+  
+  @mixin col-responsive($span-sm: 12, $span-md: 6, $span-lg: 4) {
+    @include col($span-sm, 12); // Default is mobile-first
+    @media (min-width: 768px) {
+      @include col($span-md, 12); // Medium screens
+    }
+    @media (min-width: 1024px) {
+      @include col($span-lg, 12); // Large screens
+    }
+  }
+  
 // body{
 //   // background-color: $primary-color;
 //   background-color: $background-color;

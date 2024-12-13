@@ -1,3 +1,4 @@
+@import './global.scss';
 .qualityBox{
     // border: 1px solid red;
     display: flex;
@@ -18,5 +19,15 @@
 
   .captionText{
     width: 450px;
+    @media screen and (max-width:$breakpoint-sm) {
+       
+      
+      line-height: 1;
+      
+    }
   }  
+  img{
+    width: 100px;
+    height: 100px;
+  }
  }

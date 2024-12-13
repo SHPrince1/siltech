@@ -1,0 +1,73 @@
+
+@import './global.scss';
+
+.container{
+    border: 1px solid #001442 ;
+    // border: 1px solid red;
+    // display: flex;
+    background-color: #001442; 
+    color: #f5deb3;
+    // justify-content: ;
+    height:450px;
+    // width:90%;
+    // margin: 10px auto;
+    @media screen and (max-width:$breakpoint-sm) {
+       
+        height:fit-content;
+    }
+    h4{
+        color: aliceblue;
+        font-size: 25px;
+    }
+    .containerContent{
+        width: 85%;
+        margin: 50px auto;
+        display: flex;
+        gap: 20px;
+        font-weight: bold;
+        @media screen and (max-width:$breakpoint-sm) {
+            display:flex;
+            flex-direction: column;
+            
+        }
+    }
+    .firstBox, .secondBox, .thirdBox, .fourthBox{
+        // border: 1px solid black;
+        line-height: 2;
+        width: 300px;
+    }
+    .nameLogo{
+        // border: 1px solid red;
+        width: 85%;
+        margin: 15px auto;
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width:$breakpoint-sm) {
+            display:flex;
+            flex-direction: column;
+            
+        }
+        .logo{
+            display: flex;
+            gap: 10px;
+            @media screen and (max-width:$breakpoint-sm) {
+                display:flex;
+                flex-direction: column;
+                
+            }
+            
+        }
+    }
+    .privacyPolicy{
+        // border: 1px solid red;
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width:$breakpoint-sm) {
+            display:flex;
+            flex-direction: column;
+            
+        }
+    }
+}

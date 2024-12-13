@@ -1,0 +1,86 @@
+@import './global.scss';
+.container{
+    display: flex;
+    // border: 1px solid red;
+    margin: 40px auto;
+    justify-content: space-evenly;
+    // background-color: white;
+    width: 90%;
+    @media screen and (max-width:$breakpoint-sm) {
+        display:flex;
+        flex-direction: column;
+        
+        
+    }
+   .imgDiv{
+    width: 40%;
+    img{
+        width: 500px;
+        @media screen and (max-width:$breakpoint-sm) {
+          
+            width: 400px;
+            
+            
+        }
+    }
+   } 
+
+.formDiv{
+    // border: 1px solid red;
+    width: 550px;
+   
+.names, .address{
+    display: flex;
+    gap: 10px;
+    margin: 10px auto;
+    @media screen and (max-width:$breakpoint-sm) {
+        display:flex;
+        flex-direction: column;
+        
+        
+    }
+}
+    input{
+    border: 1px solid #3dc8e9;
+    background-color: #fff;
+    color: #707070;
+    border-radius: 14px;
+    box-shadow: 10px #707070;
+    font-family: poppins;
+    gap: 16px;
+    height: 45px;
+    padding: 3px 8px;
+    width: 280px;
+    @media screen and (max-width:$breakpoint-sm) {
+       width: 380px;
+        
+        
+    }
+    }
+
+    textarea{
+        background-color: #fff;
+        color: #707070;
+        height: 200px;
+        padding: 3px 8px;
+        width: 545px;
+        @media screen and (max-width:$breakpoint-sm) {
+            width: 380px;
+             
+             
+         }
+    }
+    button{
+        background-color: #00d1f9;
+        width: 545px;
+        height: 50px;
+        border-radius: 10px;
+        @media screen and (max-width:$breakpoint-sm) {
+            width: 380px;
+             
+             
+         }
+       
+}
+}
+}
