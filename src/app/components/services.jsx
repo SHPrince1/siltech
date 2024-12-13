@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import style from "../../styles/services.module.scss";
 import ServiceCard from "../components/service-card";
 
@@ -9,7 +9,7 @@ import repair from "../../images/comprepair.jpg";
 import cctv from "../../images/cctv.jpeg";
 import pm from "../../images/pm.jpeg";
 import webapp from "../../images/webapp.jpeg";
-import cyber from "../../images/cyber.jpeg";
+// import cyber from "../../images/cyber.jpeg";
 
 const Services = () => {
   const data = [

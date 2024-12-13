@@ -41,7 +41,7 @@ const Banner = () => {
                   <p>
                     Just say the problem and we are sure to offer the solutions.
                   </p>
-                  <p> We Deliver what you demand for the with Ease. That's why we
+                  <p> We Deliver what you demand for the with Ease. That is why we
                   are    <span className={style.logoText}>The Right Technlogy</span> </p>
                 
                     

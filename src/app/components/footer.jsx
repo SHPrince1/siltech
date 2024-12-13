@@ -5,7 +5,7 @@ import Insta from "../../images/insta.jpeg";
 import TwitX from "../../images/twitx.jpeg";
 import Linkdlnn from "../../images/link.png";
 import Logo from '../../images/essagelogo-removebg-preview.png'
-import Link from "next/link";
+// import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -76,15 +76,15 @@ const Footer = () => {
             {" "}
             {/* <h2>Essage Technologies</h2> */}
             <a href="linkdli.com">
-              <Image img src={Logo} width={200} height={160}  />
+              <Image img src={Logo} width={200} height={160} alt="s"  />
             </a>
           </div>
           <div className={style.logo}>
             <a href="linkdli.com">
-              <Image img src={Linkdlnn} width={30} />
+              <Image img src={Linkdlnn} width={30} alt="s"/>
             </a>
-            <Image img src={TwitX} width={50} />
-            <Image img src={Insta} width={50} />
+            <Image img src={TwitX} width={50} alt="s"/>
+            <Image img src={Insta} width={50}alt="s" />
           </div>
         </div>
 

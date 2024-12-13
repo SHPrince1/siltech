@@ -2,39 +2,39 @@ import React from "react";
 import Image from "next/image";
 import style from "../../styles/about.module.scss";
 import computerImage from "../../images/abt us.png";
-import AboutCard from "../components/about-card";
+// import AboutCard from "../components/about-card";
 
 import Blackatisfaction from "../../images/black-satisfaction.webp";
 import Customer from "../../images/customer-service-efficiency-jpg.webp";
 import Quality from "../../images/quality-service-GKMXY2.jpg";
 
 const About = () => {
-  const data = [
-    {
-      title: "EFFICIENT SERVICE",
-      content:
-        " Lorem ipsum dolor sit amet consectetur adipisicin officiis doloribus, architecto ipsum sapiente possimu delectus animi ducimus doloremque perferendis!",
-      details: "Frontend Implementations",
-      image: Customer,
-      url: "https://sh-linkdln.netlify.app/",
-    },
-    {
-      title: "QUALITY PRODUCT",
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumofficiis doloribus, architecto ipsum sapiente possimu delectus animi ducimus doloremque perferendis!",
-      details: "Design and Development",
-      image: Quality,
-      url: "https://benevolent-bombolone-c31318.netlify.app/",
-    },
+  // const data = [
+  //   {
+  //     title: "EFFICIENT SERVICE",
+  //     content:
+  //       " Lorem ipsum dolor sit amet consectetur adipisicin officiis doloribus, architecto ipsum sapiente possimu delectus animi ducimus doloremque perferendis!",
+  //     details: "Frontend Implementations",
+  //     image: Customer,
+  //     url: "https://sh-linkdln.netlify.app/",
+  //   },
+  //   {
+  //     title: "QUALITY PRODUCT",
+  //     content:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumofficiis doloribus, architecto ipsum sapiente possimu delectus animi ducimus doloremque perferendis!",
+  //     details: "Design and Development",
+  //     image: Quality,
+  //     url: "https://benevolent-bombolone-c31318.netlify.app/",
+  //   },
 
-    {
-      title: "SATISFIED CUSTOMERS",
-      content:
-        " Lorem ipsum dolor sit amet consectetur adipisicin officiis doloribus, architecto ipsum sapiente possimu delectus animi ducimus doloremque perferendis!",
-      details: "Design and Development",
-      image: Blackatisfaction,
-    },
-  ];
+  //   {
+  //     title: "SATISFIED CUSTOMERS",
+  //     content:
+  //       " Lorem ipsum dolor sit amet consectetur adipisicin officiis doloribus, architecto ipsum sapiente possimu delectus animi ducimus doloremque perferendis!",
+  //     details: "Design and Development",
+  //     image: Blackatisfaction,
+  //   },
+  // ];
 
   return (
     <main>
