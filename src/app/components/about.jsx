@@ -98,17 +98,14 @@ const About = () => {
           <div className={style.textDiv}>
             <h3>WHO WE ARE</h3>
             <p>
-              Identifying the dying need to assist international students in
-              choosing the right course and selecting the right institution led
-              to the establishment of Essage Technologies and Educational
-              Services Ltd and since its establishment, we have been able to
-              meet many students' demands. In meeting the needs of our students,
-              the company has employed the skills of professionals who have a
-              deep knowledge of both the admission process and Visa Application
-              process. We understand that the successful completion of any
-              application process is in addition to our success stories,
-              therefore, we put in all our efforts to ensure that we get
-              commendable results in our dealings.
+              ESAGE, a child of vision and mission ESAGE is the SOLUTIONS
+              HUB which was incorporated to amongst other engagements; builds
+              Premium, Top Notch and user friendly websites and mobile
+              Applications for industrial and commercial purposes to corporate
+              bodies in Nigeria. The DIGITAL firm was founded and run by
+              seasoned technology enthusiast and practitioners, people keen and
+              passionate about taking advantage of technology to render long
+              lasting solutions to corporate organizations.
             </p>
           </div>
         </div>

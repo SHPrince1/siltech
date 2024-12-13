@@ -7,18 +7,17 @@ const ServiceCard = (props) => {
     <main>
       <div>
         <div className={style.serviceItem}>
-          
+      
           <div className={style.headerText}>
             <h4>{props.description}</h4>
           </div>
-          <div>
-            <p>
-            {props.details}
-            </p>
+         
+          <div className={style.detailsDiv}>
+            <p>{props.details}</p>
           </div>
-          <div>
-            <a href= {props.url}>
-          {props.url}
+          <div className={style.urlDiv}>
+            <a href={props.url}>
+              <p> Read More</p>
             </a>
           </div>
         </div>

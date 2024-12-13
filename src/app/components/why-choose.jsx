@@ -5,8 +5,8 @@ import style from "../../styles/why-choose.module.scss";
 const WhyChoose = () => {
   const data = [
     {
-      title: "SOLUTION WITH EASE ",
-      // content: "Say the problem and we are commited to deliver the solution. And you don't have to move out of your home or office",
+      title: "EXPERIENCE AND PROFESSIONALISM ",
+      // content: "We are a team of experince and professional individuals. We get the job done the right way ",
       details: "Frontend Implementations",
       // image: pm,
       url: "https://sh-linkdln.netlify.app/",

@@ -1,26 +1,70 @@
 // $primary-color: #0070f3;
 // $main-color: #0B2F9F;
 @import './global.scss';
-
-.container{
+.parentDiv{
+    position: fixed;
     width: 100%;
+    background-color: #000;
+    z-index: 9999;
+}
+.container{
+    position: relative;
+    width: 90%;
     height: 50px;
-    background-color:$main-color;
+    background-color:#000;
     justify-content: center;
     align-items: center;
     margin: 0px auto;
     padding: 10px auto;
     display: flex;
+    
     justify-content: space-between;
-    border: 1px solid $primary-color;
+    // border: 1px solid #fff;
     color: $background-color;
+    // @media screen and (max-width: $breakpoint-sm) {
+    //     justify-content: space-between;
+    //     // display: none;
+    //    }
+    .menuDiv{
+        display: none;
+        @media screen and (max-width: $breakpoint-sm) {
+            display: block;
+            width: 70px  ;
+            margin: 30px;
+           }
+    }
+
 
 }
 .navBarOptions{
     display: flex;
     gap: 20px;
+    @media screen and (max-width: $breakpoint-sm) {
+        display: block; 
+        padding: 10px;
+        position: absolute;
+        flex-direction: column;
+        border: 1px solid red;
+        margin-top: 337px;
+        padding: 50px;
+        margin-right: 200px;
+        margin-left: -21px;
+        width: 239px;
+        height: 287px;
+        background-color: red;
 
-}
+       }
+     
+       
+    }
+    .hideContent{
+    display: flex;
+    gap: 20px;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        display: none;
+    }
+    }
 .contact{
     border: 1px solid #fff;
     width: 80px;

@@ -2,13 +2,13 @@
 @import './global.scss';
 
 .container{
-    border: 1px solid #001442 ;
+    border: 1px solid #0e215c ;
     // border: 1px solid red;
     // display: flex;
-    background-color: #001442; 
-    color: #f5deb3;
+    background-color: #0a1943; 
+    color: #fff;
     // justify-content: ;
-    height:450px;
+    height:500px;
     // width:90%;
     // margin: 10px auto;
     @media screen and (max-width:$breakpoint-sm) {
@@ -16,8 +16,8 @@
         height:fit-content;
     }
     h4{
-        color: aliceblue;
-        font-size: 25px;
+        color: #fff;
+        font-size: 30px;
     }
     .containerContent{
         width: 85%;
