@@ -104,7 +104,7 @@ const Services = () => {
       </div> */}
 
       <div className={style.container}>
-        <div>
+        <div className={style.textDiv}>
           <h3>OUR SERVICES</h3>
           <p>
             Whatever the project size or scope, our principles stay the same.
