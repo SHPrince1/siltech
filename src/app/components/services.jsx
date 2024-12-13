@@ -128,7 +128,7 @@ const Services = () => {
             })}
           </div>
         </div>
-        <div>
+        <div className={style.textButtonDiv}>
           <h3>What can we help you with today?</h3>
           <button>Connect</button>
         </div>
