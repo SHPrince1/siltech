@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 
 import style from "../../styles/navbar.module.scss";
 import Logo from "../../images/essagelogo-removebg-preview.png";
