@@ -63,7 +63,7 @@ const Services = () => {
 
   return (
     <main>
-      <div className={style.container}>
+      {/* <div className={style.container}>
         <div className={style.containerContent}>
           <div className={style.serviceLeft}>
             <div>
@@ -85,13 +85,12 @@ const Services = () => {
           </div>
           <div className={style.emptyDiv}></div>
 
-          {/* <h1>SERVICES</h1> */}
           <div className={style.serviceBox}>
             {data.map((data, index) => {
               return (
                 <ServiceCard
                   key={index}
-                  //  title={data.title}
+                  
                   image={data.image}
                   description={data.description}
                   details={data.details}
@@ -101,6 +100,37 @@ const Services = () => {
               );
             })}
           </div>
+        </div>
+      </div> */}
+
+      <div className={style.container}>
+        <div>
+          <h3>OUR SERVICES</h3>
+          <p>
+            Whatever the project size or scope, our principles stay the same.
+            Our Reseach, Design, Build framework is tried, tested and proven.
+          </p>
+        </div>
+        <div>
+        <div className={style.serviceBox}>
+            {data.map((data, index) => {
+              return (
+                <ServiceCard
+                  key={index}
+                  
+                  image={data.image}
+                  description={data.description}
+                  details={data.details}
+                  roleplayed={data.roleplayed}
+                  url={data.url}
+                />
+              );
+            })}
+          </div>
+        </div>
+        <div>
+          <h3>What can we help you with today?</h3>
+          <button>Connect</button>
         </div>
       </div>
     </main>

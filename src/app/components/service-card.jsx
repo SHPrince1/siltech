@@ -7,12 +7,7 @@ const ServiceCard = (props) => {
     <main>
       <div>
         <div className={style.serviceItem}>
-          <div className={style.imgBox}>
-            <div>
-              {" "}
-              <Image src={props.image} alt="image" className={style.pImage} />
-            </div>
-          </div>
+          
           <div className={style.headerText}>
             <h4>{props.description}</h4>
           </div>
@@ -20,6 +15,11 @@ const ServiceCard = (props) => {
             <p>
             {props.details}
             </p>
+          </div>
+          <div>
+            <a href= {props.url}>
+          {props.url}
+            </a>
           </div>
         </div>
       </div>
