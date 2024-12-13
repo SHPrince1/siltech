@@ -115,19 +115,34 @@
     // position: relative;
     width: 100%;
     height: fit-content;
-    margin: 20px auto;
+    margin: -100px 0 0 0;
     // background-image: url(../images/servicebg.jpg);
     backdrop-filter: blur;
     background-size: cover;
     background-repeat: no-repeat;
+
+    
+    @media screen and (max-width: $breakpoint-sm) {
+       margin: 600px 0 0 0 ;
+       }
     .textDiv{
         width: 50%;
         margin: 60px auto;
         align-items: center;
         text-align: center;
         line-height: 1.8;
+        
+        @media screen and (max-width: $breakpoint-sm) {
+            width: 100%;
+           }
         h3{
             font-size: 23px;
+            
+            @media screen and (max-width: $breakpoint-sm) {
+                text-align: center;
+                align-items: center;
+                font-size: 18px;
+               }
         }
         p{
             font-size: 18px;
@@ -151,6 +166,15 @@
     align-items: center;
     text-align: center;
     line-height: 3;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        width: 100%;
+        margin: 60px auto;
+        align-items: center;
+        text-align: center;
+        line-height: 1.8;
+       }
+
     h3{
         font-size: 30px;
     }
@@ -164,6 +188,12 @@
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
+
+
+        @media screen and (max-width: $breakpoint-sm) {
+            width: 40%;
+          
+           }
 }
     
 }

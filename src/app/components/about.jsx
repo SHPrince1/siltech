@@ -84,29 +84,32 @@ const About = () => {
       </div> */}
 
       <div className={style.container}>
-        
+        {/* <div>
+          <h3>ABOUT US</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            atque autem modi necessitatibus odio eveniet ut.
+          </p>
+        </div> */}
         <div className={style.contentDiv}>
-          <div className={style.contentDivRow}>
-            <div className={style.imgDiv}>
-              <h3>ABOUT US</h3>
-              <Image src={computerImage} alt="computer Image" />
-            </div>
-            <div className={style.textDiv}>
-              <h3>OUR STORY</h3>
-              <p>
-                Identifying the dying need to assist international students in
-                choosing the right course and selecting the right institution
-                led to the establishment of Eskay Consults and Educational
-                Services Ltd and since its establishment, we have been able to
-                meet many students' demands. In meeting the needs of our
-                students, the company has employed the skills of professionals
-                who have a deep knowledge of both the admission process and Visa
-                Application process. We understand that the successful
-                completion of any application process is in addition to our
-                success stories, therefore, we put in all our efforts to ensure
-                that we get commendable results in our dealings.
-              </p>
-            </div>
+          <div className={style.imgDiv}>
+            <Image src={computerImage} alt="computer Image" />
+          </div>
+          <div className={style.textDiv}>
+            <h3>WHO WE ARE</h3>
+            <p>
+              Identifying the dying need to assist international students in
+              choosing the right course and selecting the right institution led
+              to the establishment of Essage Technologies and Educational
+              Services Ltd and since its establishment, we have been able to
+              meet many students' demands. In meeting the needs of our students,
+              the company has employed the skills of professionals who have a
+              deep knowledge of both the admission process and Visa Application
+              process. We understand that the successful completion of any
+              application process is in addition to our success stories,
+              therefore, we put in all our efforts to ensure that we get
+              commendable results in our dealings.
+            </p>
           </div>
         </div>
       </div>

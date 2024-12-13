@@ -36,36 +36,34 @@ const WhyChoose = () => {
   return (
     <main>
       <div className={style.container}>
-        <div className={style.rows}>
-          <div className={style.col}>
-            <div className={style.textCard}>
-              <h1>Why Choose Us</h1>
-              <p>
-                We have a number of different teams within our company that
-                specialise in different areas of technology and business so you
-                can be rest assured of quality.
-              </p>
+        <div className={style.col}>
+          <div className={style.textCard}>
+            <h1>Why Choose Us</h1>
+            <p>
+              We have a number of different teams within our company that
+              specialise in different areas of technology and business so you
+              can be rest assured of quality.
+            </p>
 
-              <p>
-                We develop the best solutions that are innovative, practical and
-                timely according to your requirements.
-              </p>
-            </div>
-            <div className={style.cardDiv}>
-              {data.map((data, index) => {
-                return (
-                  <Card
-                    key={index}
-                    //  title={data.title}
-                    // image={data.image}
-                    title={data.title}
-                    content={data.content}
-                    roleplayed={data.roleplayed}
-                    url={data.url}
-                  />
-                );
-              })}
-            </div>
+            <p>
+              We develop the best solutions that are innovative, practical and
+              timely according to your requirements.
+            </p>
+          </div>
+          <div className={style.cardDiv}>
+            {data.map((data, index) => {
+              return (
+                <Card
+                  key={index}
+                  //  title={data.title}
+                  // image={data.image}
+                  title={data.title}
+                  content={data.content}
+                  roleplayed={data.roleplayed}
+                  url={data.url}
+                />
+              );
+            })}
           </div>
         </div>
       </div>

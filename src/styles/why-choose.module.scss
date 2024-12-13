@@ -10,18 +10,15 @@
     height: 500px;
     display: flex;
     // margin: 100px auto;
-    
-    .rows{
-        // position:absolute;
-        // border: 1px solid red;
+
+    @media screen and (max-width: $breakpoint-sm) {
         width: 100%;
-        // gap: 50px;
-        display: flex;
-       
-
-
-
-    }
+        height:fit-content;
+        padding: auto;
+        margin: 40px auto;
+       }
+    
+   
     .col{
         // border: 1px solid black;
         width: 90%;
@@ -30,19 +27,39 @@
         justify-content: space-around;
          align-items: center;
         align-content: center;
+
+        @media screen and (max-width: $breakpoint-sm) {
+            width: 100%;
+           display: flex;
+           flex-direction: column;
+           }
         // padding: 20px;
         .textCard{
-            width: 45%;
+            width: 50%;
             line-height: 2;
             color: #fff;
             font-size: 18px;
             font-family: Roboto, sans-serif, poppins;
+            @media screen and (max-width: $breakpoint-sm) {
+                width: 90%;
+                margin: 0 auto;
+               
+               }
         }
         .cardDiv{
-            width: 40%;
+            // border: 1px solid red;
+            width: 45%;
+            padding: 0 20px 0 0;
             gap: 20px;
+            margin: 0 auto;
             display: flex;
             flex-wrap: wrap;
+
+            @media screen and (max-width: $breakpoint-sm) {
+                width: 90%;
+                margin: 0 auto;
+                
+               }
         }
     }
 
