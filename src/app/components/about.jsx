@@ -1,12 +1,12 @@
 import React from "react";
-// import Image from "next/image";
+import Image from "next/image";
 import style from "../../styles/about.module.scss";
 import computerImage from "../../images/abt us.png";
 // import AboutCard from "../components/about-card";
 
 // import Blackatisfaction from "../../images/black-satisfaction.webp";
 // import Customer from "../../images/customer-service-efficiency-jpg.webp";
-import Quality from "../../images/quality-service-GKMXY2.jpg";
+// import Quality from "../../images/quality-service-GKMXY2.jpg";
 
 const About = () => {
   // const data = [
