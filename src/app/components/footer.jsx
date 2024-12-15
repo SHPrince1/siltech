@@ -1,10 +1,10 @@
 import React from "react";
 import style from "../../styles/footer.module.scss";
 import Image from "next/image";
-import Insta from "../../images/insta.jpeg";
-import TwitX from "../../images/twitx.jpeg";
-import Linkdlnn from "../../images/link.png";
-import Logo from '../../images/essagelogo-removebg-preview.png'
+import Insta from "../../images/instaa-removebg-preview.png";
+import TwitX from "../../images/xlogo-removebg-preview.png";
+import Linkdlnn from "../../images/lindn_img-removebg-preview.png";
+import Logo from "../../images/essagelogo-removebg-preview.png";
 // import Link from "next/link";
 
 const Footer = () => {
@@ -72,19 +72,23 @@ const Footer = () => {
         </div>
 
         <div className={style.nameLogo}>
-          <div>
+          <div className={style.logoDiv} >
             {" "}
             {/* <h2>Essage Technologies</h2> */}
-            <a href="linkdli.com">
-              <Image img src={Logo} width={200} height={160} alt="s"  />
+            <a href="https://essagetech.netlify.app">
+              <Image img src={Logo} width={150} height={150} alt="s" />
             </a>
           </div>
           <div className={style.logo}>
             <a href="linkdli.com">
-              <Image img src={Linkdlnn} width={30} alt="s"/>
+              <Image img src={Linkdlnn} width={30} alt="s" />
             </a>
-            <Image img src={TwitX} width={50} alt="s"/>
-            <Image img src={Insta} width={50}alt="s" />
+            <a a href="x.com">
+              <Image img src={TwitX} width={50} alt="s" />
+            </a>
+            <a href="insta.com">
+              <Image img src={Insta} width={30} alt="s" />
+            </a>
           </div>
         </div>
 

@@ -15,15 +15,13 @@ export default function NavBar() {
   return (
     <div className={style.parentDiv}>
       <div className={style.container}>
-        <button onClick={handleToggle} className={style.menuDiv}>
-          MENU
-        </button>
+        
         <div>
           <Link href="/">
             <Image src={Logo} width={160} alt="computer Image" />
           </Link>
         </div>
-        <div className={isVisible ? style.navBarOptions : style.hideContent}>
+        <div className={isVisible?style.mobileContentView:style.navBarOptions }>
           <Link href="/">
             <h4>Home</h4>
           </Link>
@@ -40,6 +38,9 @@ export default function NavBar() {
             <div className={style.contact}>Contact</div>
           </Link>
         </div>
+        <button onClick={handleToggle} className={style.menuDiv}>
+          MENU
+        </button>
       </div>
     </div>
   );
