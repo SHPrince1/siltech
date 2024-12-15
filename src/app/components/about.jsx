@@ -108,8 +108,9 @@ const About = () => {
 
             <p>
               As a trusted partner for corporate organizations in Nigeria, we
-              are committed to delivering innovative digital experiences.
-              {/* drive growth and efficiency. Our team comprises seasoned
+              are committed to delivering innovative digital experiences that
+              drive growth and efficiency.
+              {/* Our team comprises seasoned
               technology enthusiasts and practitioners who are passionate about
               leveraging technology to craft sustainable and impactful solutions
               for businesses. */}
