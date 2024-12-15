@@ -98,14 +98,27 @@ const About = () => {
           <div className={style.textDiv}>
             <h3>WHO WE ARE</h3>
             <p>
-              ESAGE, a child of vision and mission ESAGE is the SOLUTIONS
-              HUB which was incorporated to amongst other engagements; builds
-              Premium, Top Notch and user friendly websites and mobile
-              Applications for industrial and commercial purposes to corporate
-              bodies in Nigeria. The DIGITAL firm was founded and run by
-              seasoned technology enthusiast and practitioners, people keen and
-              passionate about taking advantage of technology to render long
-              lasting solutions to corporate organizations.
+              ESSAGE Solutions Hub, is a premier digital firm driven by
+              a clear vision and mission to revolutionize the technological
+              landscape. Established to provide cutting-edge solutions, ESSAGE
+              specializes in designing and building premium, top-notch, and
+              user-friendly websites and mobile applications tailored for
+              industrial and commercial purposes.{" "}
+            </p>
+
+            <p>
+              As a trusted partner for corporate organizations in Nigeria, we
+              are committed to delivering innovative digital experiences that
+              {/* drive growth and efficiency. Our team comprises seasoned
+              technology enthusiasts and practitioners who are passionate about
+              leveraging technology to craft sustainable and impactful solutions
+              for businesses. */}
+            </p>
+
+            <p>
+              At ESSAGE, we don’t just build solutions; we create lasting
+              partnerships that empower organizations to achieve their goals in
+              an ever-evolving digital world.
             </p>
           </div>
         </div>

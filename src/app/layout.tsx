@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "EssageTech",
+  title: "Essage Technologies",
   description: "Information and Technology Services",
 };
 

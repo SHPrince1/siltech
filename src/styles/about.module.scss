@@ -37,12 +37,15 @@
     }
     .textDiv {
       width: 55%;
-      line-height: 3;
+      line-height: 2.1;
       margin: 0 auto;
       color: #222;
       font-family: poppins;
       // border: 1px solid red;
-
+p{
+  font-size: 14px;
+  // color: red;
+}
       
       @media screen and (max-width: $breakpoint-sm) {
       //  border: 1px solid red;
