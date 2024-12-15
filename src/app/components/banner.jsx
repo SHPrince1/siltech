@@ -32,7 +32,7 @@ const Banner = () => {
           <div className={style.col}>
             <div className={style.text}>
               <div className={style.headerText}>
-                <h1>Right Technology for Efficient Services. </h1>
+                <h1>Right Technologies for Efficient Services. </h1>
               </div>
               <div className={style.pText}>
                 <p>
