@@ -40,7 +40,11 @@
       width: 60%;
       @media screen and (max-width: $breakpoint-sm) {
         width: 100%;
-        margin: 100px auto;
+        // height: 100vh;
+        align-self: center;
+        justify-content: center;
+        display: flex;
+        // margin: 10px auto;
 
        }
       .text{
