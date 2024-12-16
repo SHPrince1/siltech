@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import { SlMenu } from "react-icons/sl";
 import Image from "next/image";
 
 import style from "../../styles/navbar.module.scss";
@@ -38,9 +39,11 @@ export default function NavBar() {
             <div className={style.contact}>Contact</div>
           </Link>
         </div>
-        <button onClick={handleToggle} className={style.menuDiv}>
-          MENU
-        </button>
+        <div onClick={handleToggle} className={style.menuDiv}>
+        <SlMenu className={style.menuBug}/>
+        </div>
+
+        
       </div>
     </div>
   );

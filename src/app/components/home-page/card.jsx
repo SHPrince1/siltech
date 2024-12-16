@@ -1,6 +1,6 @@
 import React from "react";
 // import Image from "next/image";
-import style from "../../styles/card.module.scss";
+import style from "../../../styles/card.module.scss";
 
 const Card = (props) => {
   return (

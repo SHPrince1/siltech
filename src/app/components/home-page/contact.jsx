@@ -1,7 +1,7 @@
 import React from "react";
 
-import style from "../../styles/contact.module.scss";
-import ContactImage from "../../images/contact-us-image.png";
+import style from "../../../styles/contact.module.scss";
+import ContactImage from "../../../images/contact-us-image.png";
 import Image from "next/image";
 
 const Contact = () => {

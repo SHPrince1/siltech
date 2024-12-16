@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import style from "../../styles/about.module.scss";
-import computerImage from "../../images/abt us.png";
+import style from "../../../styles/about.module.scss";
+import computerImage from "../../../images/abt us.png";
 // import AboutCard from "../components/about-card";
 
 // import Blackatisfaction from "../../images/black-satisfaction.webp";

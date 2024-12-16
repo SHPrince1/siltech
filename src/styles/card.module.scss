@@ -1,7 +1,7 @@
 @import './global.scss';
 .container{
     //border: 1px solid red;
-    width: 230px;
+    width: 200px;
     // box-shadow: 0px 5px 5px 2px(#707070);
     background-color: #303030;
     color: #fff;
@@ -11,24 +11,34 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    text-wrap: wrap;
     align-items: center;
     h4{
-        font-size: 14px;
+        font-size: 12px;
+        width: 60%;
+        margin: 0 auto;
         @media screen and (max-width:$breakpoint-sm) {
-            font-size: 12px;
+            
              
+        font-size: 10px;
+        width: 60%;
+        margin: 0 auto;
            }
     }
 
     .h1-ws {
         font-size: x-large;
     }
-
+    
+  
     @media screen and (max-width:$breakpoint-sm) {
        margin: 10px;
-        width:352px;
+        width:360px;
         
       }
+
+    
+
     .imgBox,.titleBox
    
 {

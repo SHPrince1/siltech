@@ -1,6 +1,6 @@
 import React from "react";
 // import Image from "next/image";
-import style from "../../styles/service-card.module.scss";
+import style from "../../../styles/service-card.module.scss";
 
 const ServiceCard = (props) => {
   return (

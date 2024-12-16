@@ -18,7 +18,8 @@
         width: 500px;
         @media screen and (max-width:$breakpoint-sm) {
           
-            width: 400px;
+            width: 300px;
+            height: 300px;
             
             
         }
@@ -27,7 +28,10 @@
 
 .formDiv{
     // border: 1px solid red;
-    width: 550px;
+    // width: 550px;
+    width: 100%;
+
+   
    
 .names, .address{
     display: flex;
@@ -50,9 +54,9 @@
     gap: 16px;
     height: 45px;
     padding: 3px 8px;
-    width: 280px;
+    width: 100%;
     @media screen and (max-width:$breakpoint-sm) {
-       width: 380px;
+       width: 100%;
         
         
     }
@@ -65,7 +69,7 @@
         padding: 3px 8px;
         width: 545px;
         @media screen and (max-width:$breakpoint-sm) {
-            width: 380px;
+            width: 100%;
              
              
          }
@@ -76,7 +80,7 @@
         height: 50px;
         border-radius: 10px;
         @media screen and (max-width:$breakpoint-sm) {
-            width: 380px;
+            width: 100%;
              
              
          }

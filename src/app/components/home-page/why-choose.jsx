@@ -1,11 +1,11 @@
 import React from "react";
-import Card from "../components/card";
-import style from "../../styles/why-choose.module.scss";
+import Card from "./card";
+import style from "../../../styles/why-choose.module.scss";
 
 const WhyChoose = () => {
   const data = [
     {
-      title: "EXPERIENCE AND PROFESSIONALISM ",
+      title: "EXPERIENCE ",
       // content: "We are a team of experince and professional individuals. We get the job done the right way ",
       details: "Frontend Implementations",
       // image: pm,

@@ -5,11 +5,11 @@
 // import Index from "./pages/index";
 // import NavBar from "./components/nav-bar";
 // import Slider from "./components/slider";
-import Banner from "./components/banner";
-import WhyChoose from "./components/why-choose";
-import About from "./components/about";
-import Services from "./components/services";
-import Contact from './components/contact';
+import Banner from "./components/home-page/banner";
+import WhyChoose from "./components/home-page/why-choose";
+import About from "./components/home-page/about";
+import Services from "./components/home-page/services";
+import Contact from './components/home-page/contact';
 import Footer from './components/footer';
 
 export default function Home() {
