@@ -1,11 +1,29 @@
-import React from 'react'
+import React from "react";
+import style from "./styles/who-we-are.module.scss";
 
 const WhoWeAre = () => {
   return (
-    <div>
-        <h1>WHO WE ARE</h1>
-    </div>
-  )
-}
+    <main>
+      <div className={style.container}>
+        <div className={style.textDiv}>
 
-export default WhoWeAre
+        <h3>Forefront Leaders in Technology and Digital Consulting</h3>
+        <p>
+          Essage Technologies Limited is a reputable technology and digital
+          consulting firm based in Lagos, Nigeria. Our mission is to provide comprehensive digital
+          technology solutions that provide a high return on investment to our
+          esteemed clients. We offer digital transformation programs that help
+          address our client's pain points and position them for efficient and
+          effective operation, resulting in increased revenue and profitability.
+          At Essage Technologies Limited, the following are the heart of our
+          business;
+        </p>
+
+        </div>
+       
+      </div>
+    </main>
+  );
+};
+
+export default WhoWeAre;
