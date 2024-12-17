@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-// import { SlMenu } from "react-icons/sl";
+import { SlMenu } from "react-icons/sl";
 import Image from "next/image";
-import { Sling  as Hamburger } from 'hamburger-react'
+// import { Sling  as Hamburger } from 'hamburger-react'
 
 import style from "../../styles/navbar.module.scss";
 import Logo from "../../images/essagelogo-removebg-preview.png";
@@ -46,7 +46,7 @@ export default function NavBar() {
         </div>
         <div onClick={handleToggle} className={style.menuDiv}>
           {/* <SlMenu className={style.menuBug} /> */}
-          <Hamburger />
+          <SlMenu />
         </div>
       </div>
     </div>
