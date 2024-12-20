@@ -66,4 +66,11 @@
   margin: -180px auto;
   line-height: 1.6;
   overflow: visible;
+
+  @media screen and (max-width:$breakpoint-sm) {
+    width: 90%;
+    margin: -180px auto;
+    line-height: 1.6;
+    overflow: visible;
+}
 }
