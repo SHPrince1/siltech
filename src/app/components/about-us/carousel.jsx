@@ -28,7 +28,7 @@ const Carousel = () => {
     <div className={style.container}>
       {isMobile ? (
         <div className={style.mobileContainer}>
-          {Array.from({ length: 20 }).map((_, index) => (
+          {Array.from({ length: 5 }).map((_, index) => (
             <div key={index} className={style.cardWrapper}>
               <Card />
             </div>
@@ -40,7 +40,7 @@ const Carousel = () => {
           modules={[Pagination, Navigation]}
           initialSlide={3}
           slidesPerView={5}
-          slideToClickedSlide={true}
+          slideToClickedSlide={false}
           pagination={{ el: '.swiper-pagination', clickable: true }}
           navigation={{
             nextEl: `.${style.swiperButtonNext}`,
@@ -51,7 +51,7 @@ const Carousel = () => {
             1024: { slidesPerView: 4, spaceBetween: 50 },
           }}
         >
-          {Array.from({ length: 20 }).map((_, index) => (
+          {Array.from({ length: 5 }).map((_, index) => (
             <SwiperSlide key={index}>
               <Card />
             </SwiperSlide>
