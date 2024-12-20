@@ -3,7 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Card from '../../components/about-us/card';
-
+import { GrFormNextLink } from "react-icons/gr";
+import { GrFormPreviousLink } from "react-icons/gr";
 // Import Swiper styles
 import 'swiper/css';
 import style from '../../components/about-us/styles/carousel.module.scss';
@@ -36,10 +37,10 @@ const Carousel = () => {
         </div>
       ) : (
         <Swiper
-          spaceBetween={100}
+          spaceBetween={170}
           modules={[Pagination, Navigation]}
           initialSlide={3}
-          slidesPerView={5}
+          slidesPerView={4}
           slideToClickedSlide={false}
           pagination={{ el: '.swiper-pagination', clickable: true }}
           navigation={{
@@ -63,10 +64,10 @@ const Carousel = () => {
         <>
           {/* Custom Navigation Buttons */}
           <div className={style.swiperButtonNext}>
-            <button>Next</button>
+            <GrFormNextLink  size={40}/>
           </div>
           <div className={style.swiperButtonPrev}>
-            <button>Prev</button>
+          <GrFormPreviousLink size={40}/>
           </div>
         </>
       )}

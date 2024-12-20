@@ -1,5 +1,12 @@
 @import "../../../../styles/global.scss";
+.container::after{
+    content: '';
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: hsla(240, 74%, 6%, 0.3);
 
+}
 .container {
   width: 100%;
   margin: 0 auto;
@@ -29,17 +36,23 @@
   width: 80px;
   transform: translateY(-50%);
   z-index: 10;
-  background-color: #fff;
+  background-color: hwb(235 7% 7% / 0.5);
   color: white;
   border: none;
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
   font-size: 14px;
+//       button
+ 
+// {
+//     background-color: $transparent-color;
+//     width: 40px;
+//   }
 }
 
 .swiperButtonNext {
-  right: -40px;
+  right: -30px;
 }
 
 .swiperButtonPrev {
@@ -49,5 +62,5 @@
 
 .swiperButtonNext:hover,
 .swiperButtonPrev:hover {
-  background-color: #707070;
+  background-color: hsl(0, 0%, 44%, 0.5);
 }
