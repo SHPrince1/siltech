@@ -1,12 +1,12 @@
 'use client'
 import React from "react";
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
 
 // import Slider from "react-slick";
-import Card from "../about-us/card";
+// import Card from "../about-us/card";
 import style from "../about-us/styles/card-parent.module.scss";
 const CardParent = () => {
  

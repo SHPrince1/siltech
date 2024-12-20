@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./styles/who-we-are.module.scss";
-import Card from "../about-us/card";
-import CardParent from '../about-us/card-parent'
+// import Card from "../about-us/card";
+// import CardParent from '../about-us/card-parent'
 import Carousel from '../about-us/carousel'
 
 const WhoWeAre = () => {
@@ -15,7 +15,7 @@ const WhoWeAre = () => {
             consulting firm based in Lagos, Nigeria. Our mission is to provide
             comprehensive digital technology solutions that provide a high
             return on investment to our esteemed clients. We offer digital
-            transformation programs that help address our client's pain points
+            transformation programs that help address our client `&apos;`s pain points
             and position them for efficient and effective operation, resulting
             in increased revenue and profitability. At Essage Technologies
             Limited, the following are the heart of our business;
