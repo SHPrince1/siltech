@@ -1,0 +1,52 @@
+@import "../../../../styles/global.scss";
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Mobile-specific styles */
+.mobileContainer {
+  display: flex;
+  flex-direction: column; /* Stack cards in a column */
+  gap: 50px; /* Space between cards */
+}
+
+.cardWrapper {
+  width: 100%; /* Ensure full-width cards */
+}
+
+.swiper-pagination {
+  margin-top: 10px;
+}
+
+/* Custom Navigation Buttons */
+.swiperButtonNext,
+.swiperButtonPrev {
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.swiperButtonNext {
+  right: -50px;
+}
+
+.swiperButtonPrev {
+  left: -50px;
+}
+
+.swiperButtonNext:hover,
+.swiperButtonPrev:hover {
+  background-color: darkblue;
+}

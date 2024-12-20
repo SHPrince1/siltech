@@ -2,6 +2,7 @@ import React from "react";
 import style from "./styles/who-we-are.module.scss";
 import Card from "../about-us/card";
 import CardParent from '../about-us/card-parent'
+import Carousel from '../about-us/carousel'
 
 const WhoWeAre = () => {
   return (
@@ -21,15 +22,12 @@ const WhoWeAre = () => {
           </p>
         </div>
 
-        {/* <div className={style.cardDiv}>
-          <Card />
-        </div> */}
         
       </div>
 
       <div className={style.cardDiv}>
-        <CardParent />
-        {/* <CardParent /> */}
+       <Carousel />
+        
          
         </div>
     </main>
