@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import style from "./styles/card.module.scss";
 import Images from '../about-us/images/abt-banner.jpg'
-import { GrFormNextLink } from "react-icons/gr";
+// import { GrFormNextLink } from "react-icons/gr";
 const Card = () => {
   return (
     <main>
