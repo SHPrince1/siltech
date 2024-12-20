@@ -26,10 +26,10 @@
 .swiperButtonPrev {
   position: absolute;
   top: 50%;
-  width: 100px;
+  width: 80px;
   transform: translateY(-50%);
   z-index: 10;
-  background-color: blue;
+  background-color: #fff;
   color: white;
   border: none;
   padding: 10px;
@@ -39,7 +39,7 @@
 }
 
 .swiperButtonNext {
-  right: -50px;
+  right: -40px;
 }
 
 .swiperButtonPrev {
@@ -49,5 +49,5 @@
 
 .swiperButtonNext:hover,
 .swiperButtonPrev:hover {
-  background-color: darkblue;
+  background-color: #707070;
 }

@@ -36,10 +36,10 @@ const Carousel = () => {
         </div>
       ) : (
         <Swiper
-          spaceBetween={50}
+          spaceBetween={100}
           modules={[Pagination, Navigation]}
           initialSlide={3}
-          slidesPerView={4}
+          slidesPerView={5}
           slideToClickedSlide={true}
           pagination={{ el: '.swiper-pagination', clickable: true }}
           navigation={{
