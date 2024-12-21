@@ -1,0 +1,30 @@
+.container{
+    // border: 1px solid red;
+    background-color: #050200;
+    width: 100%;
+    // justify-content: center;
+    // margin: 20px auto;
+    padding: 40px 0 ;
+    margin: 40px auto;
+    // flex-wrap: wrap;
+    // gap: 20px;
+    // display: flex;
+    .header{
+        color: #fff;
+        width: 60%;
+        margin: 20px auto;
+        text-align: center;
+        h4{
+            font-size: 20px;
+        }
+    }
+    .containerContent{
+        // border: 1px solid red;
+        width: 80%;
+        margin: 0 auto;
+        gap: 30px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

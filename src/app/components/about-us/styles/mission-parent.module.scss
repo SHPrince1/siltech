@@ -1,14 +1,23 @@
 @import "../../../../styles/global.scss";
 .container{
     // border: 1px solid red;
-    width: 70%;
-    margin: 10px auto;
+    width: 90%;
+    margin: 40px auto;
     display: flex;
-    // flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 500px;
+    // padding: 20px;
+    // width: 366px;
     gap: 20px;
+    .header{
+      color: #fff;
+    }
     @media screen and (max-width: $breakpoint-sm) {
         display: flex;
         flex-direction: column;
+        height: 100%;
       }
+      
 
 }

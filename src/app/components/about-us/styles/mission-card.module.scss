@@ -9,4 +9,17 @@
     text-align: center;
     line-height: 1.5;
     padding: 8px;
+    width: 420px;
+    // background-color: #ccc;
+
+    p{
+        font-weight: 100px;
+        color: #707070;
+        font-family: poppins;
+        font-size: 15px;
+    }
+
+    @media screen and (max-width: $breakpoint-sm) {
+        width: 100%;
+      }
 }

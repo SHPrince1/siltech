@@ -2,6 +2,8 @@ import React from 'react';
 import AboutBanner from '../components/about-us/banner'
 import WhoWeAre from '../components/about-us/who-we-are'
 import MissionParent from '../components/about-us/mission-parent'
+import ValueCardParent from '../components/about-us/value-card-parent'
+import Footer from '../components/footer'
 export default function About() {
     return (
       <div>
@@ -10,6 +12,8 @@ export default function About() {
        <AboutBanner />
        <WhoWeAre />
        <MissionParent />
+       <ValueCardParent />
+       <Footer />
       </div>
     );
   }

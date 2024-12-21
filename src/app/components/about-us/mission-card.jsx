@@ -10,7 +10,7 @@ const MissionCard = () => {
         <div>
         <MdLightbulbOutline  size={30}/>
         </div>
-        <div>Our Vision</div>
+        <h4>Our Vision</h4>
         <div>
           <p>
             Our vision is to be a global leader in technology and cybersecurity
