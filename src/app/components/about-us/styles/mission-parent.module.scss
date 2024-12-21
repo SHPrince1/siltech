@@ -1,0 +1,14 @@
+@import "../../../../styles/global.scss";
+.container{
+    // border: 1px solid red;
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+    // flex-wrap: wrap;
+    gap: 20px;
+    @media screen and (max-width: $breakpoint-sm) {
+        display: flex;
+        flex-direction: column;
+      }
+
+}

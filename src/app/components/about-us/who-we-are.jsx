@@ -3,6 +3,7 @@ import style from "./styles/who-we-are.module.scss";
 // import Card from "../about-us/card";
 // import CardParent from '../about-us/card-parent'
 import Carousel from '../about-us/carousel'
+// import MissionCard from '../about-us/mission-card'
 
 const WhoWeAre = () => {
   return (
@@ -30,6 +31,10 @@ const WhoWeAre = () => {
         
          
         </div>
+
+        {/* <div>
+          <MissionCard />
+        </div> */}
     </main>
   );
 };
