@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import style from "./styles/card.module.scss";
-import Images from '../about-us/images/abt-banner.jpg'
+// import Images from '../about-us/images/abt-banner.jpg'
 // import { GrFormNextLink } from "react-icons/gr";
 const Card = () => {
   return (
     <main>
       <div className={style.container}>
         <div className={style.imageDiv}>
-            <Image src={Images} alt="image" />
+            {/* <Image src={Images} alt="image" /> */}
         </div>
         <div className={style.textDiv}>
             <h4>

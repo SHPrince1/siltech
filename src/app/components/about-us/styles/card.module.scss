@@ -14,7 +14,8 @@
   width: 300px;
   height: 230px;
   margin: 20px;
-  border-radius: 10px 100px 14px 14px;
+  background-color:$main-color;
+  border-radius: 14px;
 
   @media screen and (max-width:$breakpoint-sm) {
     width: 100%;
