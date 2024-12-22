@@ -1,0 +1,36 @@
+@import "../../../../styles/global.scss";
+.container{
+    width: 90%;
+    // display: flex;
+    margin: 0 auto;
+    // border: 1px solid red;
+    .containerContent{
+        // border: 1px solid red;
+        width: 100%;
+        height: 550px;
+        margin: 0px auto;
+        // justify-content: center;
+        // display: flex;
+        align-items: center;
+        overflow: auto;
+        scrollbar-width: none;
+        display: flex;
+        
+        gap: 20px;
+    
+    
+       
+    }
+
+    .title{
+        // border: 1PX SOLID RED;
+        width: 40%;
+        justify-content: center;
+        text-align: center;
+        margin: 10px auto;
+        line-height: 1.2;
+        @media screen and (max-width: $breakpoint-sm) {
+            width: 100%;
+          }
+    }
+}

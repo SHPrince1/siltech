@@ -1,0 +1,32 @@
+
+@import "../../../../styles/global.scss";
+.container{
+    // border: 1px solid red;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+    gap: 20px;
+    background: linear-gradient(180deg, $main-color 35%, #fff 90%);
+    padding: 40px;
+    line-height: 1;
+    width: 300px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+    img{ border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; }
+       
+    .namePerson{
+        line-height: 1.5;
+        margin: 18px 0px;
+    }
+    .textTitle{
+        width: 220px;
+        justify-content: center;
+        text-align: center;
+    }
+}
