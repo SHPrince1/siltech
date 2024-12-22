@@ -17,8 +17,8 @@ const WhatPeopeSayCard = () => {
 
         
           <p>
-            "Essage Technologies is always reliable and fast, even with short notices, we
-            can always count on them to get requests done. Thank you!"
+            Essage Technologies is always reliable and fast, even with short notices, we
+            can always count on them to get requests done. Thank you!
           </p>
         </div>
         <div></div>
