@@ -4,7 +4,7 @@ import React from 'react';
 
 // import { Swiper, SwiperSlide } from 'swiper/react';
 // import Card from '../components/about-us/card'
-import Carousel from '../../app/components/about-us/carousel'
+// import Carousel from '../../app/components/about-us/carousel'
 import ServiceBanner from '../components/services/banner';
 import Services from '../components/home-page/services'
 import Contact from '../components/home-page/contact'
