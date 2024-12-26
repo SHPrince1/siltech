@@ -15,7 +15,7 @@
    .imgDiv{
     width: 40%;
     img{
-        width: 500px;
+        width: 100%;
         @media screen and (max-width:$breakpoint-sm) {
           
             width: 300px;

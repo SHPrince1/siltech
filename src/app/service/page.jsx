@@ -5,23 +5,19 @@ import React from 'react';
 // import { Swiper, SwiperSlide } from 'swiper/react';
 // import Card from '../components/about-us/card'
 import Carousel from '../../app/components/about-us/carousel'
+import ServiceBanner from '../components/services/banner';
+import Services from '../components/home-page/services'
 // Import Swiper styles
 // import 'swiper/css';
 
-const Services = () => {
+const ServicesPage = () => {
   return (
     <main>
-      <h1>SERVICES</h1>
-      <h1>SERVICES</h1>
-      <h1>SERVICES</h1>
-      <h1>SERVICES</h1>
-      <h1>SERVICES</h1>
-      <h1>SERVICES</h1>
+    <ServiceBanner />
 
-
-     <Carousel />
+    <Services />
     </main>
   );
 }
 
-export default Services;
+export default ServicesPage;
