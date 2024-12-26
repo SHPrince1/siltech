@@ -7,6 +7,8 @@ import React from 'react';
 import Carousel from '../../app/components/about-us/carousel'
 import ServiceBanner from '../components/services/banner';
 import Services from '../components/home-page/services'
+import Contact from '../components/home-page/contact'
+import Footer from '../components/footer'
 // Import Swiper styles
 // import 'swiper/css';
 
@@ -16,6 +18,8 @@ const ServicesPage = () => {
     <ServiceBanner />
 
     <Services />
+<Contact />
+    <Footer />
     </main>
   );
 }
