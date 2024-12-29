@@ -37,7 +37,7 @@ export default function NavBar() {
           <Link href="/service" passHref>
             <h4>Service</h4>
           </Link>
-          <Link href="/service" passHref>
+          <Link href="/blog" passHref>
             <h4>Blog</h4>
           </Link>
           <Link href="/" passHref>

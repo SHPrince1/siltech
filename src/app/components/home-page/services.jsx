@@ -1,4 +1,5 @@
 import React from "react";
+// import Link from "next/link";
 // import Image from "next/image";
 import style from "../../../styles/services.module.scss";
 import ServiceCard from "./service-card";
@@ -19,7 +20,9 @@ const Services = () => {
       details:
         "We support organisations to make more effective use of technology and create successful digital transformations.",
       image: enterprise,
-      url: "https://syltube.netlify.app/",
+      url:"/it-consultant" 
+      
+    
     },
 
     {
@@ -28,28 +31,28 @@ const Services = () => {
       details: "We develop software solutions accross various industries. Which enhance smooth and efficienntrunning of day to day business",
       image: repair,
       roleplayed: "Designed the frontend user-interface",
-      url: "https://codtravels.com/",
+      url: "/software-dev",
     },
     {
       title: "Bankers Ware house",
       description: "LAN Networking & CCTV Installation ",
       details: "Our LAN networking and CCTV security camera installation, is sure to deliver seamless connectivity and top-notch survelance for your home or business",
       image: cctv,
-      url: "https://bw-clone.netlify.app/",
+      url: "/lan-networking",
     },
     {
       title: "Bankers Ware house",
       description: "Computer Sale & Maintenance",
       details: "We sell computers in bulk or single units, and also provide professional maintenance and repair services to keep your systems running smoothly",
       image: pm,
-      url: "https://sh-linkdln.netlify.app/",
+      url: "/computer-sales",
     },
     {
       title: "Bankers Ware house",
       description: " Solar Inverter installation",
       details: "We offer reliable solar and inverter installation services, providing sustainable energy solutions for homes and business",
       image: webapp,
-      url: "https://benevolent-bombolone-c31318.netlify.app/",
+      url: "/solar-inverter",
     },
 
     // {

@@ -30,7 +30,7 @@ const ServiceBanner = () => {
             <div className={style.text}>
               <div className={style.headerText}>
                 {/* <h1>Essage Technologies</h1> */}
-                <h1>Inspiring Innovations Transforming Businesses</h1>
+                <h1>Right Technologies Efficient Services </h1>
               </div>
               <div className={style.pText}>
                 <p>

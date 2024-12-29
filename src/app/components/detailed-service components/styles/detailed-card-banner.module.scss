@@ -1,0 +1,157 @@
+@import "../../../../styles/global.scss";
+.container {
+  // border: 1px solid red;
+  // margin: 50px auto;
+  width: 100%;
+  // background-color: black;
+
+  // position: relative;
+  // height: 400px;
+
+  .containerContent {
+    // border: 1px solid red;
+    margin: 50px auto;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+
+    position: relative;
+
+    .imageDiv {
+      // border: 1px solid red;
+      position: absolute;
+      width: 100%;
+      height: 400px;
+      // overflow: hidden;
+      img {
+        width: 100%;
+        height: 400px;
+        // background-size: cover;
+      }
+    }
+    .textDiv {
+      // border: 1px solid red;
+      position: absolute;
+      margin: 180px 100px;
+      // height: 200px;
+      @media screen and (max-width:$breakpoint-sm) {
+        margin: 80px;
+      }
+      h1{
+        color: #fff;
+        background-color: hsl(0, 0%, 0%, 0.3);
+        font-family: poppins;
+        font-size: 40px;
+
+        @media screen and (max-width:$breakpoint-sm) {
+          // margin: 100px 100px;
+          font-size: 30px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .detailBox {
+    // border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+
+    @media screen and (max-width:$breakpoint-sm) {
+       
+      display: flex;
+     flex-direction: column;
+      
+    }
+    .detailBoTxext {
+      font-family: poppins;
+      width: 50%;
+      line-height: 2;
+
+      @media screen and (max-width:$breakpoint-sm) {
+       
+      
+       width: 100%;
+        
+      }
+
+      h2{
+        color: $main-color;
+        text-transform: uppercase;
+      }
+      p{
+        color: #707070;
+      }
+    }
+    .detailBoxImage {
+      width: 30%;
+
+      @media screen and (max-width:$breakpoint-sm) {
+       
+      
+        width: 100%;
+        
+      }
+      img {
+        width: 100%;
+        height: 300px;
+      }
+    }
+  }
+
+  .processBox {
+    width: 90%;
+    margin: 40px auto;
+    // border: 1px solid red;
+
+    .processBoxTitle {
+      display: flex;
+      
+      justify-content: center;
+      margin: 10px auto;
+      @media screen and (max-width:$breakpoint-sm) {
+       
+      font-size: 15px;
+      text-align: center;
+        
+      }
+      h2{
+        color: $main-color;
+        text-transform: uppercase;
+        font-family: poppins;
+        @media screen and (max-width:$breakpoint-sm) {
+       
+          font-size: 15px;
+          text-align: center;
+            
+          }
+      }
+    }
+    .processBoxTextContentBox {
+      // border: 1px solid black;
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      margin: 0 auto;
+      gap: 20px;
+      justify-content: space-between;
+      .processBoxTextContent {
+        // border: 1px solid red;
+        width: 500px;
+        line-height: 1.6;
+
+        h4{
+          color: $main-color;
+        }
+        p{
+          font-size: 14px;
+          line-height: 1.4;
+          font-family: poppins;
+          color: #707070;
+        }
+      }
+    }
+  }
+}

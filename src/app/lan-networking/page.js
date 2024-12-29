@@ -3,17 +3,17 @@ import DetailedServiceCard from '../components/detailed-service components/detai
 import Contact from '../components/home-page/contact'
 import Footer from '../components/footer'
 import DetailedCardBanner from "../components/detailed-service components/detailed-card-banner";
-const SoftWareDevPage = () => {
+const LanNetworking = () => {
 
     const data = [
         {
-            intro:"Software Development",
+            intro:"Lan Networking",
         //   title: "IT Consulting & Advisory",
-          head: "Software Development",
+          head: "Lan Networking",
           titledetails:
             " We have developed several web-based and mobile solutions for a  wide variety of clients from different commercial and public sectors. Tell us about your business requirements in the form below",
           
-          subtitle:'A Structured WEB DEVELOPMENT process with EssAge Technologies ',
+          subtitle:'A Structured Lan Networking process with EssAge Technologies ',
           description: "IT Consulting & Advisory",
           contentdetails:" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vita voluptas! Laboriosam sunt mollitia explicabo cumque illo? Repellendus earum est reiciendis. Placeat quasi dignissimos fugiat, voluptatem libero reprehenderit incidunt adipisci doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ipsa.",
         },
@@ -66,4 +66,4 @@ const SoftWareDevPage = () => {
   )
 }
 
-export default SoftWareDevPage
+export default LanNetworking
