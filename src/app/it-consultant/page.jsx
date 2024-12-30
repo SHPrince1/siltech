@@ -8,8 +8,7 @@ const ItConsultPage = () => {
         intro:"IT Consulting & Advisory",
     //   title: "IT Consulting & Advisory",
       head: "IT Consulting & Advisory",
-      titledetails:
-        " We have developed several web-based and mobile solutions for a  wide variety of clients from different commercial and public sectors. Tell us about your business requirements in the form below",
+      titledetails: "Welcome to EssAge Technologies, your trusted partner in delivering innovative and tailored IT solutions. As a leading consultancy firm, we specialize in empowering businesses through cutting-edge technology, strategic guidance, and unparalleled expertise. Our services span a wide range of IT disciplines,including: Custom Software Development Cloud Solutions Cybersecurity IT Strategy and Planning System Integration Data Analytics and Business Intelligence With a team of highly skilled professionals and a commitment to excellence, we aim to drive your organization toward achieving operational efficiency, scalability, and sustained growth. Partner with us to navigate the complexities of today’s digital landscape and transform your IT challenges into opportunities for success. Contact us today to learn how we can support your business goals.",
       
       subtitle:'A Structured Consultancy process with EssAge Technologies ',
       description: "IT Consulting & Advisory",

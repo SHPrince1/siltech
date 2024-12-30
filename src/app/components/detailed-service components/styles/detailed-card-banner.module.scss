@@ -58,6 +58,7 @@
     justify-content: space-evenly;
     width: 90%;
     margin: 0 auto;
+  
 
     @media screen and (max-width:$breakpoint-sm) {
        
@@ -69,6 +70,10 @@
       font-family: poppins;
       width: 50%;
       line-height: 2;
+
+      p{
+        font-size: 14px;
+      }
 
       @media screen and (max-width:$breakpoint-sm) {
        

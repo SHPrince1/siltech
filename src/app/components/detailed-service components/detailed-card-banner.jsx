@@ -21,7 +21,7 @@ const DetailedCardBanner = (props) => {
             <h2>{props.head}</h2>
             <p>{props.titledetails}</p>
 
-            <p>{props.titledetails}</p>
+            {/* <p>{props.titledetails}</p> */}
           </div>
           <div className={style.detailBoxImage}>
             <Image src={Software} alt={""} width={"40%"} />
