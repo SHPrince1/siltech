@@ -1,8 +1,8 @@
 import React from 'react'
 import DetailedServiceCard from '../components/detailed-service components/detailed-service-card'
-import Contact from '../components/home-page/contact'
-import Footer from '../components/footer'
-import DetailedCardBanner from "../components/detailed-service components/detailed-card-banner";
+// import Contact from '../components/home-page/contact'
+// import Footer from '../components/footer'
+// import DetailedCardBanner from "../components/detailed-service components/detailed-card-banner";
 const LanNetworking = () => {
 
     const data = [
