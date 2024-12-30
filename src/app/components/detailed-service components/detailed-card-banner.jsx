@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Service from "../detailed-service components/images/service-resize.webp";
-import Software from "../detailed-service components/images/software-dev-australia.jpg";
+// import Software from "../detailed-service components/images/software-dev-australia.jpg";
 import style from "../detailed-service components/styles/detailed-card-banner.module.scss";
 const DetailedCardBanner = (props) => {
   return (
