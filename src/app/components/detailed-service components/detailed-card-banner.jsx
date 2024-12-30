@@ -40,19 +40,19 @@ const DetailedCardBanner = (props) => {
             </div>
 
             <div className={style.processBoxTextContent}>
-              <h4>{props.description}</h4>
+              <h4>{props.description2}</h4>
 
-              <p>{props.contentdetails}</p>
+              <p>{props.contentdetails2}</p>
             </div>
             <div className={style.processBoxTextContent}>
-              <h4>{props.description}</h4>
+              <h4>{props.description3}</h4>
 
-              <p>{props.contentdetails}</p>
+              <p>{props.contentdetails3}</p>
             </div>
             <div className={style.processBoxTextContent}>
-              <h4>{props.description}</h4>
+              <h4>{props.description4}</h4>
 
-              <p>{props.contentdetails}</p>
+              <p>{props.contentdetails4}</p>
             </div>
           </div>
         </div>
