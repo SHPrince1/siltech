@@ -1,61 +1,55 @@
 import React from 'react'
-// import DetailedServiceCard from '../components/detailed-service components/detailed-service-card'
-// import Contact from '../components/home-page/contact'
-// import Footer from '../components/footer'
+import Software from "../software-dev/software-dev.webp"
 import DetailedCardBanner from "../components/detailed-service components/detailed-card-banner";
 const SoftWareDevPage = () => {
 
     const data = [
         {
-            intro:"Software Development",
+            intro:"SOFTWARE DEVELOPMENT",
+            image:Software,
+            image1:Software,
         //   title: "IT Consulting & Advisory",
-          head: "Software Development",
-          titledetails:
-            " We have developed several web-based and mobile solutions for a  wide variety of clients from different commercial and public sectors. Tell us about your business requirements in the form below",
+          head: "SOFTWARE DEVELOPMENT",
+          titledetails: "At Essage Technologies, we specialize in delivering custom software solutions tailored to your unique business needs. Our expertise spans the entire software development lifecycle, from ideation and design to deployment and maintenance. We leverage modern technologies and agile methodologies to create efficient, scalable, and user-friendly applications. Whether it’s a web app, mobile solution, or enterprise software, our goal is to empower your business with innovative tools that drive productivity and growth. Partner with us to transform your ideas into powerful software solutions that deliver real value.",
           
-          subtitle:'A Structured WEB DEVELOPMENT process with EssAge Technologies ',
-          description: "IT Consulting & Advisory",
-          contentdetails:" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vita voluptas! Laboriosam sunt mollitia explicabo cumque illo? Repellendus earum est reiciendis. Placeat quasi dignissimos fugiat, voluptatem libero reprehenderit incidunt adipisci doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ipsa.",
-        },
-    
-        // {
-        //   title: "COD TRAVELS",
-        //   description: "Software Development",
-        //   details: "We develop software solutions accross various industries. Which enhance smooth and efficienntrunning of day to day business",
-    
-        //   roleplayed: "Designed the frontend user-interface",
-    
-        // },
-        // {
-        //   title: "Bankers Ware house",
-        //   description: "LAN Networking & CCTV Installation ",
-        //   details: "Our LAN networking and CCTV security camera installation, is sure to deliver seamless connectivity and top-notch survelance for your home or business",
-    
-        // },
-        // {
-        //   head: "Bankers Ware house",
-        //   description: "Computer Sale & Maintenance",
-        //   details: "We sell computers in bulk or single units, and also provide professional maintenance and repair services to keep your systems running smoothly",
-    
-        // },
-      ];
+          subtitle:'Software Development Process with EssAge Technologies',
+          description: "Requirement Analysis and Planning",
+          contentdetails:" We begin by understanding your business objectives and gathering detailed requirements. Through consultations and workshops, we define the project scope, timelines, and deliverables, ensuring alignment with your vision.",
+          description2: "Design and Prototyping",
+          contentdetails2:"Our team creates intuitive designs and prototypes, focusing on user experience and functionality. Feedback loops during this phase ensure that the solution meets your expectations before development begins.",
+          description3: "Development and Testing",
+          contentdetails3:" Using agile methodologies, we build the software in iterative cycles, ensuring flexibility and timely updates. Rigorous testing at every stage guarantees performance, security, and reliability.",
+          description4:"Deployment and Maintenance",
+          contentdetails4:"Once approved, the software is deployed seamlessly into your environment. We provide ongoing support, updates, and enhancements to ensure the solution remains effective and adaptable to your evolving needs."
+        }
+
+   
+  ];
   return (
     <div>
-       {/* <DetailedServiceCard /> */}
+     
 
        <div>
         {data.map((data, index) => {
           return (
             <DetailedCardBanner
-              key={index}
-              intro={data.intro}
-              titledetails={data.titledetails}
-              subtitle={data.subtitle}
-              image={data.image}
-              head={data.head}
-              contentdetails={data.contentdetails}
-              description={data.description}
-            />
+            key={index}
+            intro={data.intro}
+            titledetails={data.titledetails}
+            subtitle={data.subtitle}
+            image={data.image}
+            image1={data.image1}
+            head={data.head}
+            contentdetails={data.contentdetails}
+            description={data.description}
+            contentdetails2={data.contentdetails2}
+            description2={data.description2}
+            contentdetails3={data.contentdetails3}
+            description3={data.description3}
+            contentdetails4={data.contentdetails4}
+            description4={data.description4}
+          
+          />
           );
         })}
       </div>
