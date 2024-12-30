@@ -3,11 +3,14 @@ import React from "react";
 // import DetailedServiceCard from "../components/detailed-service components/detailed-service-card";
 import DetailedCardBanner from "../components/detailed-service components/detailed-card-banner";
 import Consult from '../it-consultant/ITCONsult.jpg'
+import Service from "../components/detailed-service components/images/service-resize.webp";
+
 const ItConsultPage = () => {
   const data = [
     {
         intro:"IT Consulting & Advisory",
         image:Consult,
+        image1:Service,
     //   title: "IT Consulting & Advisory",
       head: "IT Consulting & Advisory",
       titledetails: "Welcome to EssAge Technologies, your trusted partner in delivering innovative and tailored IT solutions. As a leading consultancy firm, we specialize in empowering businesses through cutting-edge technology, strategic guidance, and unparalleled expertise. Our services span a wide range of IT disciplines,including: Custom Software Development Cloud Solutions Cybersecurity IT Strategy and Planning System Integration Data Analytics and Business Intelligence With a team of highly skilled professionals and a commitment to excellence, we aim to drive your organization toward achieving operational efficiency, scalability, and sustained growth. Partner with us to navigate the complexities of today’s digital landscape and transform your IT challenges into opportunities for success. Contact us today to learn how we can support your business goals.",
@@ -37,6 +40,7 @@ const ItConsultPage = () => {
               titledetails={data.titledetails}
               subtitle={data.subtitle}
               image={data.image}
+              image1={data.image1}
               head={data.head}
               contentdetails={data.contentdetails}
               description={data.description}

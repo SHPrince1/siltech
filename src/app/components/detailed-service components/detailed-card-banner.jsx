@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Service from "../detailed-service components/images/service-resize.webp";
+// import Service from "../detailed-service components/images/service-resize.webp";
 // import Software from "../detailed-service components/images/software-dev-australia.jpg";
 import style from "../detailed-service components/styles/detailed-card-banner.module.scss";
 const DetailedCardBanner = (props) => {
@@ -9,7 +9,7 @@ const DetailedCardBanner = (props) => {
       <div className={style.container}>
         <div className={style.containerContent}>
           <div className={style.imageDiv}>
-            <Image src={Service} alt={""} />
+            <Image src={props.image1} alt={""} />
           </div>
           <div className={style.textDiv}>
             <h1>{props.intro}</h1>
