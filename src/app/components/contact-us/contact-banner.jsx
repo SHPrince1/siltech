@@ -31,7 +31,7 @@ const ContactBanner = () => {
               <div className={style.headerText}>
                 {/* <h1>Essage Technologies</h1> */}
                 <h1>CONTACT US</h1>
-                <h1>LET'S BUILD TOGETHER</h1>
+                <h1>LET&#39;S BUILD TOGETHER</h1>
               </div>
               <div className={style.pText}>
                 {/* <p>
