@@ -1,6 +1,6 @@
 import React from "react";
 import style from "../about-us/styles/mission-card.module.scss";
-import { MdLightbulbOutline } from "react-icons/md";
+// import { MdLightbulbOutline } from "react-icons/md";
 
 const MissionCard = (props) => {
   return (
