@@ -3,6 +3,8 @@ import React from "react";
 import DetailedCardBanner from "../components/detailed-service components/detailed-card-banner";
 import Solar from '../solar-inverter/solar.jpg'
 import Solar2 from '../solar-inverter/solar2.jpg'
+import Contact from "../components/home-page/contact"
+import Footer from "../components/footer"
 const SolarInverter = () => {
   const data = [
     {
@@ -53,6 +55,8 @@ const SolarInverter = () => {
           );
         })}
       </div>
+      <Contact />
+      <Footer />
     </div>
   );
 };

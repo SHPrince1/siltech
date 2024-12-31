@@ -3,6 +3,8 @@ import React from "react";
 import DetailedCardBanner from "../components/detailed-service components/detailed-card-banner";
 import repair from '../computer-sales/repair.webp'
 import laptop from '../computer-sales/laptop.avif'
+import Contact from "../components/home-page/contact"
+import Footer from "../components/footer"
 const ComputerSales = () => {
   const data = [
     {
@@ -53,6 +55,8 @@ const ComputerSales = () => {
           );
         })}
       </div>
+      <Contact />
+      <Footer />
     </div>
   );
 };

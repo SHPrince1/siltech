@@ -4,7 +4,8 @@ import React from "react";
 import DetailedCardBanner from "../components/detailed-service components/detailed-card-banner";
 import Consult from '../it-consultant/ITCONsult.jpg'
 import Service from "../components/detailed-service components/images/service-resize.webp";
-
+import Contact from "../components/home-page/contact"
+import Footer from "../components/footer"
 const ItConsultPage = () => {
   const data = [
     {
@@ -55,6 +56,9 @@ const ItConsultPage = () => {
           );
         })}
       </div>
+
+      <Contact />
+      <Footer />
     </div>
   );
 };

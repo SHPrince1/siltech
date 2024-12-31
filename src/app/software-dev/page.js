@@ -1,6 +1,8 @@
 import React from 'react'
 import Software from "../software-dev/software-dev.webp"
 import DetailedCardBanner from "../components/detailed-service components/detailed-card-banner";
+import Contact from "../components/home-page/contact"
+import Footer from "../components/footer"
 const SoftWareDevPage = () => {
 
     const data = [
@@ -54,8 +56,8 @@ const SoftWareDevPage = () => {
         })}
       </div>
        {/* <DetailedServiceCard /> */}
-       {/* <Contact />
-       <Footer /> */}
+       <Contact />
+       <Footer />
     </div>
   )
 }

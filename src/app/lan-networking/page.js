@@ -3,6 +3,8 @@ import Network from '../../app/lan-networking/network-lan.avif';
 import Networkss from '../../app/lan-networking/networksss.webp';
 
 import DetailedCardBanner from "../components/detailed-service components/detailed-card-banner";
+import Contact from "../components/home-page/contact"
+import Footer from "../components/footer"
 const LanNetworking = () => {
 
     
@@ -56,9 +58,8 @@ const LanNetworking = () => {
           );
         })}
       </div>
-       {/* <DetailedServiceCard /> */}
-       {/* <Contact />
-       <Footer /> */}
+      <Contact />
+      <Footer />
     </div>
   )
 }
