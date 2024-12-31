@@ -18,7 +18,11 @@ const Connect = () => {
           </div>
 
           <div className={style.btn}>
+           
+            <a href ='/contact-us'>
             <button>GET IN TOUCH</button>
+
+                </a>
           </div>
         </div>
       </div>

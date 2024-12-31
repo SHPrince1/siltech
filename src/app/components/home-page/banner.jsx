@@ -29,7 +29,9 @@ const Banner = () => {
               </div>
 
               <div className={style.btn}>
+                <a href='/contact-us'>
                 <button>CONNECT</button>
+                </a>
               </div>
             </div>
           </div>

@@ -62,7 +62,11 @@ const AboutBanner = () => {
               </div>
 
               <div className={style.btn}>
-                <button>Partner with us today</button>
+                  <a href='/contact-us'>
+                <button>
+                  Partner with us today</button>
+
+                  </a>
               </div>
             </div>
           </div>

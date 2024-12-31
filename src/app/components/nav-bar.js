@@ -40,7 +40,7 @@ export default function NavBar() {
           <Link href="/blog" passHref>
             <h4>Blog</h4>
           </Link>
-          <Link href="/" passHref>
+          <Link href="/contact-us" passHref>
             <div className={style.contact}>Contact</div>
           </Link>
         </div>

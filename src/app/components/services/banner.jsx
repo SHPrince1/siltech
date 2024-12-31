@@ -62,7 +62,9 @@ const ServiceBanner = () => {
               </div>
 
               <div className={style.btn}>
+                <a href ='/contact-us'>
                 <button>Partner with us today</button>
+                </a>
               </div>
             </div>
           </div>

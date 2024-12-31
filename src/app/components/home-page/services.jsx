@@ -133,7 +133,9 @@ const Services = () => {
         </div>
         <div className={style.textButtonDiv}>
           <h3>What can we help you with today?</h3>
-          <button>Connect</button>
+           <a href ='/contact-us'>
+                <button>Connect</button>
+                </a>
         </div>
       </div>
     </main>
