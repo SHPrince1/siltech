@@ -10,6 +10,40 @@ import 'swiper/css';
 import style from '../../components/about-us/styles/carousel.module.scss';
 
 const Carousel = () => {
+  const data = [
+
+    
+    {
+        title:"Business Empowerment",
+        details:"We empower businesses with tailored solutions and expert support to boost efficiency, drive growth, and ensure scalability. Partner with us to turn challenges into opportunities and achieve lasting success."
+       
+    //   title: "IT Consulting & Advisory",
+      
+    },
+    {
+        title:"Customer Satisfaction",
+        details:"Customer satisfaction is our top priority. We are committed to delivering quality solutions and exceptional service that exceed expectations, ensuring lasting trust and loyalty."
+       
+    //   title: "IT Consulting & Advisory",
+      
+    },
+    {
+        title:"Quality and Efficient Service",
+        details:"We deliver high-quality, efficient services tailored to meet your needs. Our commitment to excellence ensures reliable solutions and outstanding results every time."
+       
+    //   title: "IT Consulting & Advisory",
+      
+    },
+    {
+        title:"Cooperate Partnerships",
+        details:"We've achieved a competitive edge among indigenous technology firms through strategic partnerships with global OEMs. These collaborations enable us to deliver exceptional value, drive client success, and achieve impactful results."
+      
+    },
+   
+   
+
+   
+  ];
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -29,18 +63,23 @@ const Carousel = () => {
     <div className={style.container}>
       {isMobile ? (
         <div className={style.mobileContainer}>
-          {Array.from({ length: 5 }).map((_, index) => (
+          {data.map((data, index) => (
             <div key={index} className={style.cardWrapper}>
-              <Card />
+              <Card
+              key={index}
+              title={data.title}
+              details={data.details}
+              
+              />
             </div>
           ))}
         </div>
       ) : (
         <Swiper
-          spaceBetween={170}
+          spaceBetween={10}
           modules={[Pagination, Navigation]}
-          initialSlide={3}
-          slidesPerView={4}
+          initialSlide={2}
+          slidesPerView={3.4}
           slideToClickedSlide={false}
           pagination={{ el: '.swiper-pagination', clickable: true }}
           navigation={{
@@ -48,13 +87,18 @@ const Carousel = () => {
             prevEl: `.${style.swiperButtonPrev}`,
           }}
           breakpoints={{
-            768: { slidesPerView: 3, spaceBetween: 40 },
+            768: { slidesPerView: 3, spaceBetween: 30 },
             1024: { slidesPerView: 4, spaceBetween: 50 },
           }}
         >
-          {Array.from({ length: 5 }).map((_, index) => (
+          {data.map((data, index) => (
             <SwiperSlide key={index}>
-              <Card />
+              <Card
+               key={index}
+               title={data.title}
+               details={data.details}
+              
+              />
             </SwiperSlide>
           ))}
         </Swiper>

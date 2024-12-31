@@ -3,7 +3,7 @@ import React from "react";
 import style from "./styles/card.module.scss";
 // import Images from '../about-us/images/abt-banner.jpg'
 // import { GrFormNextLink } from "react-icons/gr";
-const Card = () => {
+const Card = (props) => {
   return (
     <main>
       <div className={style.container}>
@@ -12,10 +12,8 @@ const Card = () => {
         </div>
         <div className={style.textDiv}>
             <h4>
-            Employee Empowerment </h4>
-          <p>We prioritize customer-centricity and
-            constantly empower our employees to engage deeply with our clients,
-            all while optimizing and transforming our operations and products.
+            {props.title}</h4>
+          <p>{props.details}
           </p>
         </div>
       </div>
