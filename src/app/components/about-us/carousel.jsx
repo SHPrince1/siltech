@@ -76,11 +76,11 @@ const Carousel = () => {
         </div>
       ) : (
         <Swiper
-          spaceBetween={10}
+          spaceBetween={9}
           modules={[Pagination, Navigation]}
-          initialSlide={2}
-          slidesPerView={3.4}
-          slideToClickedSlide={false}
+          initialSlide={4}
+          slidesPerView={3}
+          slideToClickedSlide={true}
           pagination={{ el: '.swiper-pagination', clickable: true }}
           navigation={{
             nextEl: `.${style.swiperButtonNext}`,
@@ -107,12 +107,12 @@ const Carousel = () => {
       {!isMobile && (
         <>
           {/* Custom Navigation Buttons */}
-          <div className={style.swiperButtonNext}>
+          {/* <div className={style.swiperButtonNext}>
             <GrFormNextLink  size={40}/>
           </div>
           <div className={style.swiperButtonPrev}>
           <GrFormPreviousLink size={40}/>
-          </div>
+          </div> */}
         </>
       )}
     </div>
