@@ -3,8 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Card from '../../components/about-us/card';
-import { GrFormNextLink } from "react-icons/gr";
-import { GrFormPreviousLink } from "react-icons/gr";
+// import { GrFormNextLink } from "react-icons/gr";
+// import { GrFormPreviousLink } from "react-icons/gr";
 // Import Swiper styles
 import 'swiper/css';
 import style from '../../components/about-us/styles/carousel.module.scss';
