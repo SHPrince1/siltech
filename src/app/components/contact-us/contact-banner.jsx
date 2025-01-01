@@ -34,16 +34,7 @@ const ContactBanner = () => {
                 <h1>LET&#39;S BUILD TOGETHER</h1>
               </div>
               <div className={style.pText}>
-                {/* <p>
-                 LET'S BUILD TOGETHER
-                </p>
                 
-                <p>
-                  We transform businesses for a sustainable future with digital
-                  transformation. By leveraging cutting-edge technologies, we
-                  optimize resources, reduce waste, and deliver innovative,
-                  eco-friendly solutions.
-                </p> */}
                
                 
               </div>

@@ -80,13 +80,13 @@ const Footer = () => {
             </a>
           </div>
           <div className={style.logo}>
-            <a href="linkdli.com">
+            <a href="https://www.linkedin.com/company/siltechnologies/posts/">
               <Image img src={Linkdlnn} width={30} alt="s" />
             </a>
             <a a href="x.com">
               <Image img src={TwitX} width={50} alt="s" />
             </a>
-            <a href="insta.com">
+            <a href="https://www.instagram.com/essagetechnologies/">
               <Image img src={Insta} width={30} alt="s" />
             </a>
           </div>
