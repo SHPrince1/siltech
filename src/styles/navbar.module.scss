@@ -1,117 +1,78 @@
-// $primary-color: #0070f3;
-// $main-color: #0B2F9F;
 @import './global.scss';
-.parentDiv{
-    position: fixed;
-    width: 100%;
-    background-color: $main-color;
-    z-index: 9999;
-}
-.container{
-    position: relative;
-    width: 90%;
-    height: 50px;
-    background-color:$main-color;
-    justify-content: center;
-    align-items: center;
-    margin: 0px auto;
-    padding: 10px auto;
-    display: flex;
-    
-    justify-content: space-between;
-    // border: 1px solid #fff;
-    color: $background-color;
-    // @media screen and (max-width: $breakpoint-sm) {
-    //     justify-content: space-between;
-    //     // display: none;
-    //    }
-    .menuDiv{
-        display: none;
-        @media screen and (max-width: $breakpoint-sm) {
-            display: block;
-            // width: 70px  ;
-            margin: 30px;
-           }
-           .menuBug{
-            font-size: 25px;
-           }
-    }
 
-
+.parentDiv {
+  position: fixed;
+  width: 100%;
+  background-color: $main-color;
+  z-index: 9999;
 }
-.navBarOptions{
-    display: flex;
-    width: 50%;
-    // gap: 0px;
-    justify-content: space-around;
-    // margin: 0 auto;
-    align-items: center;
-    // border: 1px solid red;
+
+.container {
+  position: relative;
+  width: 90%;
+  height: 50px;
+  background-color: $main-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: $background-color;
+
+  .menuDiv {
+    display: none;
+
     @media screen and (max-width: $breakpoint-sm) {
-        display: flex;
-        padding: 10px;
-        position: absolute;
-        flex-direction: column;
-        //border: 1px solid red;
-        margin-top: 337px;
-        padding: 50px;
-        margin-right: 200px;
-        margin-left: -18rem;
-        width: 239px;
-        height: 287px;
-        background-color: $transparent-color;
-        transition: 0.5s ease-in-out;
-        
-}
-     
-       
+      display: block;
+      cursor: pointer;
+
+      .menuBug {
+        font-size: 25px;
+      }
     }
-    .mobileContentView{
-        display: flex;
-        padding: 2px;
-        position: absolute;
-        flex-direction: column;
-        align-items: left;
-        justify-content: center;
-        gap: 80px;
-        // border: 1px solid red;
-        margin-top: 630px;
-        padding: 50px;
-        //margin-right: 200px;
-        margin-left: -21px;
-        width: 370px;
-        height: 580px;
-        background-color: $transparent-color;
-        // background-color: #fff;
-        // color: #222;
-        transition: 0.2s ease-in-out;
-        z-index: 999;
-        //border: 1px solid red;
-       
+  }
 }
-    // .hide{
-    //     display: none;
-    // }
-    .contact{
-    border: 1px solid #fff;
-    width: 100px;
-    height: 40px;
-    text-align: center;
-    align-items: center;
+
+.navBarOptions {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+
+  @media screen and (max-width: $breakpoint-sm) {
+    display: none;
+  }
+}
+
+.mobileContentView {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background-color: $main-color;
+  padding: 20px;
+  gap: 20px;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(0);
+  z-index: 999;
+
+  @media screen and (max-width: $breakpoint-sm) {
     display: flex;
-    padding: 4px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    //height: 30px;
-    //background-color: red;
-    transition: 0.5 ease-in-out;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    
+  }
 }
-.contact:hover{
+
+.contact {
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
     background-color: #fff;
     color: $main-color;
-    border: 1px solid $main-color;
+    border-color: $main-color;
+  }
 }
